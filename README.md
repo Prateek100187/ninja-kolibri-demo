@@ -17,7 +17,7 @@ Wrapper pages: `play.html`, `play-v2.html`, `play-mobile.html`.
 - **Round 1 (`race-v1/`)**: built from one prompt asking for a top-down racer that works on laptops and phones.
 - **Round 2 (`race-v2/`)**: Kolibri-1 got its round-1 code plus a list of the bugs found in testing, and was asked to fix them.
 
-In round 1, the game freezes as soon as you start it (a code error), so nothing moves. Round 2 runs, but very slowly: the arrow keys and Enter do nothing (A/D and Space work), a crash usually takes two to three minutes or more, and the Game Over box shows a final score of 0. The phone buttons are big and work in both rounds.
+In round 1, the game freezes as soon as you start it (a code error), so nothing moves. Round 2 runs, but very slowly: the arrow keys and Enter do nothing (A/D and Space work), a crash took between about 1.5 and 3.5 minutes in testing, and the Game Over box shows a final score of 0. The phone buttons are big and work in both rounds.
 
 Wrapper pages: `play-race.html`, `play-race-v2.html`.
 
