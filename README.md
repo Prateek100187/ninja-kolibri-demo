@@ -21,6 +21,15 @@ In round 1, the game freezes as soon as you start it (a code error), so nothing 
 
 Wrapper pages: `play-race.html`, `play-race-v2.html`.
 
+## Lawn tennis game (laptop and phone)
+
+- **Round 1 (`tennis-v1/`)**: built from one prompt asking for a tennis game against a computer opponent that works on laptops and phones.
+- **Round 2 (`tennis-v2/`)**: Kolibri-1 got its round-1 code plus a list of the bugs found in testing, and was asked to fix them.
+
+Neither round is playable. In round 1, the start screen and buttons appear, but a code error stops the game after its first frame, so nothing ever moves. In round 2, the start screen is skipped and a different code error stops the game before anything is drawn, so you only see a green screen with the score and buttons.
+
+Wrapper pages: `play-tennis.html`, `play-tennis-v2.html`.
+
 ## Wrapper pages
 
 The `play*.html` pages are small wrappers that are not written by Kolibri. They show the game in a frame and send one anonymous request to a public counter (abacus.jasoncameron.dev) to count page opens. They set no cookies, use no storage, and send no personal data.
